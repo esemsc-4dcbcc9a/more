@@ -3,10 +3,12 @@ def print_matrix(matrix):
     """
     Print the 2D list matrix.
 
+
     :param matrix: 2D list to print
     """
-    for row in matrix:
-        print(row)
+    for r in matrix:
+        print(r)
+
 def floyd_warshall(graph):
     """
     Floyd-Warshall algorithm to find the shortest paths between all pairs of vertices.
