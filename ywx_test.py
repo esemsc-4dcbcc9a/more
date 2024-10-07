@@ -1,5 +1,11 @@
 # floyd_warshall.py
 def print_matrix(matrix):
+    """
+    Print the 2D list matrix.
+
+
+    :param matrix: 2D list to print
+    """
     for r in matrix:
         print(r)
 
