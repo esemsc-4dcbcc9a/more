@@ -1,5 +1,12 @@
 # floyd_warshall.py
+def print_matrix(matrix):
+    """
+    Print the 2D list matrix.
 
+    :param matrix: 2D list to print
+    """
+    for row in matrix:
+        print(row)
 def floyd_warshall(graph):
     """
     Floyd-Warshall algorithm to find the shortest paths between all pairs of vertices.
