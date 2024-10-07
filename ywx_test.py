@@ -1,4 +1,7 @@
 # floyd_warshall.py
+def print_matrix(matrix):
+    for r in matrix:
+        print(r)
 
 def floyd_warshall(graph):
     """
